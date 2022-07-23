@@ -37,3 +37,7 @@
 * İstemciler, nesnelerin yaratılma şekillerindeki değişikliklerden etkilenirler,
 * Nesneler hatalı bir şekilde, yanlış ilişki ve durumlarda yaratılır,
 * Zor bulunan buglar ortaya çıkar
+
+## Örnek Yapalım ? 
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/cr2.jpg" width="100%" height="50%"/>
+
