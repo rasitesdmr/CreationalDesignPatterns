@@ -1,0 +1,2 @@
+# YARATIMSAL KALIPLAR ?
+* Nesne-merkezli 
