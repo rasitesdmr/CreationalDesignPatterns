@@ -11,3 +11,8 @@
 * Dolayısıyla nesne yaratma, sadece bir kurucu (constructor) çağrısına indirgenemeyecek kadar karmaşıktır.
 * Çoğu zaman bir nesneyi oluşturmak, o nesneyi kullanmaktan daha zordur.
 * Çünkü nesnenin sağladığı basit ve anlaşılır bir arayüzün arkasındaki mekanizmayı kurmak zordur.
+
+## Nesne Yaratmada Temel Problem Şunlardır ?
+* Nesnenin yaratılacağı yer : Nesneler belirli yerlerde yaratılmalı .
+* Nesnenin nasıl yaratılacağı : Nesnelerin nasıl yaratılacağını belirleyen şey genelde nesnelerin durumları 
+(state) ve diğer nesnelerle olan ilişkileridir
