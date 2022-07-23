@@ -16,3 +16,24 @@
 * Nesnenin yaratılacağı yer : Nesneler belirli yerlerde yaratılmalı .
 * Nesnenin nasıl yaratılacağı : Nesnelerin nasıl yaratılacağını belirleyen şey genelde nesnelerin durumları 
 (state) ve diğer nesnelerle olan ilişkileridir
+
+## Nesne Nerede Yaratılmalı ?
+* Dolayısıyla nesne yaratmak zordur, uzmanlık gerektiren bir iştir.
+* Bu yüzden nesne yaratmak, bir iş süreci ya da bir iş kuralı gibi özel bir sorumluluktur ve sistemde bu sorumluluk için oluşturulmuş özel yerler olmalıdır.
+* Burada nesne ile kastedilen genel olarak iş nesneleridir (business objects).
+* Çünkü framework nesneleri daha basittirler yaratılması karmaşık olan genelde bizim modellediğimiz nesnelerdir, iş nesneleridir.
+
+## Nesne Nasıl Yaratılır ?
+* Modern nesne-merkezli dillerde nesneler kurucu(constructor) denen özel metot çağrılarıyla yaratılır .
+* Bazen nesne, gerekli tüm parametreleri kendisine geçilen bir kurucuyla bir seferde yaratılır.
+* Bazen de nesne önce parametre almayan, varsayılan (default) kurucu ile yaratılır, sonrasında gerekli parametreler set metotlarıyla nesneye geçilir.
+* Bu ikincisine, JavaBean yöntemi de denir.
+
+## Nesne Yaratma Ters Kalıpları ? 
+* Aksi taktirde şu problemler ya da ters kalıplar (anti-pattern) oluşur:
+* Nesne yaratan kodlar sistemde her tarafa yayılır,
+* Bu yayılma gittikçe daha çok copy-paste ile yapılır hale gelir,
+* İstemcilerin nesnelere olan bağımlılıkları artar,
+* İstemciler, nesnelerin yaratılma şekillerindeki değişikliklerden etkilenirler,
+* Nesneler hatalı bir şekilde, yanlış ilişki ve durumlarda yaratılır,
+* Zor bulunan buglar ortaya çıkar
