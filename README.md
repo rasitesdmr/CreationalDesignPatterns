@@ -39,5 +39,21 @@
 * Zor bulunan buglar ortaya çıkar
 
 ## Örnek Yapalım ? 
-<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/cr2.jpg" width="100%" height="50%"/>
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/cr2.jpg" width="80%" height="50%"/>
+
+## Problem Nedir ? 
+* Yukarıdaki kod parçasında en fazla yer kaplayan ve en karmaşık kısımlar, nesne oluşturan kodlardır.
+* Kurucuların (constructor) çok parametre alması normaldir,
+* Bir sınıfın bir çok karmaşık kurucusunun olması da normaldir,
+* Normal olmayan, bu karmaşık kodları çağıran kod parçalarının her tarafa yayılmasıdır.
+* Öte taraftan kurucularda tasarımsızlıktan kaynaklanan gereksiz bir karmaşıklık vardır.
+
+## Peki Ne Yapılmalı ? 
+* Nesnelerin yaratılması basitleştirilmeli,
+* Nesnelerin yaratılması tekrar kullanılabilir olmalı,
+* İstemcilerin, nesnelerin yaratılmasına olan bağımlılıkları asgari seviyeye 
+indirilmeli
+
+## Özetlersek ?
+* Nesnelerin yaratılması kodun diğer kısımlarından soyutlanmalıdır; nesneler, sadece ve sadece belirli yerlerde yaratılmalı, bunun dışında new kullanımı engellenmelidir.
 
