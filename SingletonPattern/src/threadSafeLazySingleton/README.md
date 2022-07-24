@@ -6,6 +6,7 @@ kanal tarafından çalıştırılması sağlanır
 
 ## Burda Bir Problemimiz Var ?
 <img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/img5.jpg" width="70%" height="50%"/>
+
 * Sonradan yüklemeli ve thread-safe çözümde getInstance’da singleton nesnenin null kontrolünün mutex lock ile yapılması 
 performans açısından sorunludur.
 * Çünkü mutex lock sadece singleton nesne oluşturuluncaya kadar gereklidir, sonrasında referans null olmaktan 
