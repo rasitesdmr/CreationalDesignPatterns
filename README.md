@@ -57,3 +57,9 @@ indirilmeli
 ## Özetlersek ?
 * Nesnelerin yaratılması kodun diğer kısımlarından soyutlanmalıdır; nesneler, sadece ve sadece belirli yerlerde yaratılmalı, bunun dışında new kullanımı engellenmelidir.
 
+## Yaratımsal kalıplar 5 Tanedir 
+* Singleton : Bır sınıftan sadece bir tane nesne yaratmak.
+* Factory Method : Nesne yaratmayı soyutlamak.
+* Abstract Factory : Nesne ailesi yaratmayı soyutlamak.
+* Builder : Karmaşık nesne yaratma sürecini kurgulamak.
+* Prototype : Bir örnek nesneden kopyalamayla yeni nesneler türetmek.
