@@ -22,4 +22,4 @@ is designed to be used together, and you need to enforce this constraint.)
 * Çünkü nesneler arasında bir ilgi ya da bağımlılık yoktur.
 * Benzer şekilde her bir nesne için arayüzü gerçekleştiren dolayısıyla da Factory Method’unu ezen sınıflar oluşturulur.
 
-<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc1.png" width="100%" height="50%"/>
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc1.png" width="60%" height="50%"/>
