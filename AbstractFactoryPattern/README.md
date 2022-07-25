@@ -1,5 +1,5 @@
 # Abstract Factory ?
-<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc2.png" width="100%" height="50%"/>
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc2.png" width="80%" height="50%"/>
 
 * Birbirleriyle ilgili ya da bağımlı nesne ailelerini , nesnelerin somut sınıflarını belirtmeden 
 yaratmak için bir arayüz sağlar. 
