@@ -12,7 +12,7 @@
 * Yani singleton'ın alt sınıfları olamaz , genişletilebilen bir yapı değildir.
 * Ama bu önemli bir kısıt değildir çünkü singletondaki davranışlar da zaten singleton yani tek olma eğilimindedir.
 
-### Package'lerin Sırası ?
+### 📌 Package'lerin Sırası ?
 
 * baseSingleton
 * lazySingleton
