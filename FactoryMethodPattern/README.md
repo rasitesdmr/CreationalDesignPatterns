@@ -1,5 +1,5 @@
 # FACTORY METHOD ?
-<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/FactoryMethodPattern/images/img1.jpg" width="60%" height="50%"/>
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/img1.jpg" width="60%" height="50%"/>
 
 * Bir nesne yaratmak için bir arayüz (interface) tanımla , fakat hangi sınıfın nesnesinin oluşturulacağına alt
 sınıflar karar versin.
