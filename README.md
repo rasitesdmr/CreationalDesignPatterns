@@ -6,7 +6,7 @@
 * Nesne yaratma , kulağa gelişinin aksine , basit bir iş değildir.
 * Çünkü nesneler , gerçek dünyada programlama öğrenirken gördüğümüz örneklerinden çok daha karmaşıktır .
 * Kötü oluşturulmuş bir modelde nesneler zaten gelişigüzellikten kaynaklanan karmaşıklığa sahiptirler.
-* İyi oluşturulmuş bir modelde nesneler, aralarındaki düzenli ilişkiler, tanımlı durumları (state) ve tekrar kullanılabilirlik (reusability) gibi kaygılardan dolayı anlaşılır bir karmaşığa sahiptirler .
+* İyi oluşturulmuş bir modelde nesneler, aralarındaki düzenli ilişkiler, tanımlı durumları (state) ve tekrar kullanılabilirlik (reusability) gibi kaygılardan dolayı anlaşılır bir karmaşıklağa sahiptirler .
 * Bu anlamda genel olarak iş nesneleri ile kontrol nesneleri daha karmaşık olma eğilimindedirler.
 * Dolayısıyla nesne yaratma, sadece bir kurucu (constructor) çağrısına indirgenemeyecek kadar karmaşıktır.
 * Çoğu zaman bir nesneyi oluşturmak, o nesneyi kullanmaktan daha zordur.
