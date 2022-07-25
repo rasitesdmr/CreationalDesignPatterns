@@ -1,4 +1,4 @@
-## 📌 Double Checked Locking ?
+# Double Checked Locking ?
 * Singleton nesneye olan referansın null olup olmadığının , birisi kilitli blokta 
 diğeri ise öncesinde olmak üzere iki defa kontrol edildiği çözüme denir.
 * Burada iki defa null kontrolü yapılmaktadır.
