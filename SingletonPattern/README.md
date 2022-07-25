@@ -6,7 +6,7 @@
 * Bir sınıfın bir tane nesne olmasından kasıt ise , herkesin istediği zaman bu sınıfın bir nesnesini oluşturmaya
   çalışmaması , oluşturamaması , var olan tek nesneyi kullanmasıdır .
 
-## 📌SINGLETON VE INHERITANCE ? 
+## 📌 SINGLETON VE INHERITANCE ? 
 
 * Singleton'ın tüm kurucuları private olduğundan miras olarak devralınamazlar.
 * Yani singleton'ın alt sınıfları olamaz , genişletilebilen bir yapı değildir.
