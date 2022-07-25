@@ -1,1 +1,1 @@
-## ÖRnek
+## EXAMPLE
