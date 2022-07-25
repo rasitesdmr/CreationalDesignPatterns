@@ -1,7 +1,7 @@
 # YARATIMSAL KALIPLAR ?
 <img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/cp1.jpeg" width="100%" height="50%"/>
 
-## Nesne Yaratma Problemi ? 
+## 📌 Nesne Yaratma Problemi ? 
 * Nesne-merkezli programlamada en temel ve yaygın iş nesne yaratmaktır.
 * Nesne yaratma , kulağa gelişinin aksine , basit bir iş değildir.
 * Çünkü nesneler , gerçek dünyada programlama öğrenirken gördüğümüz örneklerinden çok daha karmaşıktır .
@@ -12,24 +12,24 @@
 * Çoğu zaman bir nesneyi oluşturmak, o nesneyi kullanmaktan daha zordur.
 * Çünkü nesnenin sağladığı basit ve anlaşılır bir arayüzün arkasındaki mekanizmayı kurmak zordur.
 
-## Nesne Yaratmada Temel Problem Şunlardır ?
+## 📌 Nesne Yaratmada Temel Problem Şunlardır ?
 * Nesnenin yaratılacağı yer : Nesneler belirli yerlerde yaratılmalı .
 * Nesnenin nasıl yaratılacağı : Nesnelerin nasıl yaratılacağını belirleyen şey genelde nesnelerin durumları 
 (state) ve diğer nesnelerle olan ilişkileridir
 
-## Nesne Nerede Yaratılmalı ?
+## 📌 Nesne Nerede Yaratılmalı ?
 * Dolayısıyla nesne yaratmak zordur, uzmanlık gerektiren bir iştir.
 * Bu yüzden nesne yaratmak, bir iş süreci ya da bir iş kuralı gibi özel bir sorumluluktur ve sistemde bu sorumluluk için oluşturulmuş özel yerler olmalıdır.
 * Burada nesne ile kastedilen genel olarak iş nesneleridir (business objects).
 * Çünkü framework nesneleri daha basittirler yaratılması karmaşık olan genelde bizim modellediğimiz nesnelerdir, iş nesneleridir.
 
-## Nesne Nasıl Yaratılır ?
+## 📌 Nesne Nasıl Yaratılır ?
 * Modern nesne-merkezli dillerde nesneler kurucu(constructor) denen özel metot çağrılarıyla yaratılır .
 * Bazen nesne, gerekli tüm parametreleri kendisine geçilen bir kurucuyla bir seferde yaratılır.
 * Bazen de nesne önce parametre almayan, varsayılan (default) kurucu ile yaratılır, sonrasında gerekli parametreler set metotlarıyla nesneye geçilir.
 * Bu ikincisine, JavaBean yöntemi de denir.
 
-## Nesne Yaratma Ters Kalıpları ? 
+## 📌 Nesne Yaratma Ters Kalıpları ? 
 * Aksi taktirde şu problemler ya da ters kalıplar (anti-pattern) oluşur:
 * Nesne yaratan kodlar sistemde her tarafa yayılır,
 * Bu yayılma gittikçe daha çok copy-paste ile yapılır hale gelir,
@@ -38,26 +38,26 @@
 * Nesneler hatalı bir şekilde, yanlış ilişki ve durumlarda yaratılır,
 * Zor bulunan buglar ortaya çıkar
 
-## Örnek Yapalım ? 
+## 📌 Örnek Yapalım ? 
 <img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/cr2.jpg" width="80%" height="50%"/>
 
-## Problem Nedir ? 
+## 📌 Problem Nedir ? 
 * Yukarıdaki kod parçasında en fazla yer kaplayan ve en karmaşık kısımlar, nesne oluşturan kodlardır.
 * Kurucuların (constructor) çok parametre alması normaldir,
 * Bir sınıfın bir çok karmaşık kurucusunun olması da normaldir,
 * Normal olmayan, bu karmaşık kodları çağıran kod parçalarının her tarafa yayılmasıdır.
 * Öte taraftan kurucularda tasarımsızlıktan kaynaklanan gereksiz bir karmaşıklık vardır.
 
-## Peki Ne Yapılmalı ? 
+## 📌 Peki Ne Yapılmalı ? 
 * Nesnelerin yaratılması basitleştirilmeli,
 * Nesnelerin yaratılması tekrar kullanılabilir olmalı,
 * İstemcilerin, nesnelerin yaratılmasına olan bağımlılıkları asgari seviyeye 
 indirilmeli
 
-## Özetlersek ?
+## 📌 Özetlersek ?
 * Nesnelerin yaratılması kodun diğer kısımlarından soyutlanmalıdır; nesneler, sadece ve sadece belirli yerlerde yaratılmalı, bunun dışında new kullanımı engellenmelidir.
 
-## Yaratımsal kalıplar 5 Tanedir 
+## 📌 Yaratımsal kalıplar 5 Tanedir 
 * Singleton : Bır sınıftan sadece bir tane nesne yaratmak.
 * Factory Method : Nesne yaratmayı soyutlamak.
 * Abstract Factory : Nesne ailesi yaratmayı soyutlamak.
