@@ -1,7 +1,5 @@
-<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/rm6.png" width="80%" height="50%"/>
-
-
 ## SINGLETON KALIBI ?
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/rm6.png" width="80%" height="50%"/>
 
 * Türkçe karşılığı "tek" , "tek olan" demek .
 * Amaç : Bir sınıfın sadece bir tane nesnesinin olduğundan emin olun ve ona global bir erişim noktası sağla.
