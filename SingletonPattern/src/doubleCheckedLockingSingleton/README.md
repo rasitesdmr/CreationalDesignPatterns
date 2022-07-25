@@ -1,4 +1,4 @@
-## Double Checked Locking ?
+## 📌 Double Checked Locking ?
 * Singleton nesneye olan referansın null olup olmadığının , birisi kilitli blokta 
 diğeri ise öncesinde olmak üzere iki defa kontrol edildiği çözüme denir.
 * Burada iki defa null kontrolü yapılmaktadır.
@@ -7,15 +7,15 @@ diğeri ise öncesinde olmak üzere iki defa kontrol edildiği çözüme denir.
 true döndüreceğinden bir daha mutex lock alanına girmez.
 * Bu da performans kazanımı sağlar.
 
-## Thread ? 
+## 📌 Thread ? 
 * Aynı anda birden fazla işlem yapmayı sağlayan yapıya thread denir. 
 * Bu yapı sayesinde işlemler birbirini beklemeden kendi işlemini yapar .
 
-## Volatile ? 
+## 📌 Volatile ? 
 * Java "volatile" anahtar kelimesi değişkenin sakladığı değerin Threadlar tarafından 
 okunmaya çalışıldığında hepsinin aynı değerinin okunacağının garantisini verir.
 
-## Volatile Örnek Verelim
+## 📌 Volatile Örnek Verelim
 * 4 çekirdekli bir bilgisayarınız olduğunu varsayın ve oluşturduğunuz bir değişken farklı thread'ler 
 tarafından erişime açık. Herhangi bir thread bu değişken üzerinde değişiklik yaptığında diğer thread'in bu 
 değişikliğin farkında olması için volatile sözcüğünü kullanarak yapılacak tüm değişikliklerin ram 
