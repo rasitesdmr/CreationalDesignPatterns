@@ -1,3 +1,6 @@
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/rm6.png" width="80%" height="50%"/>
+
+
 ## SINGLETON KALIBI ?
 
 * Türkçe karşılığı "tek" , "tek olan" demek .
