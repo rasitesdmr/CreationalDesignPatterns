@@ -1,4 +1,4 @@
-## 📌 SINGLETON KALIBI ?
+## SINGLETON KALIBI ?
 <img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/rm6.png" width="80%" height="50%"/>
 
 * Türkçe karşılığı "tek" , "tek olan" demek .
