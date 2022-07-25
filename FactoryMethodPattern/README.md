@@ -20,3 +20,11 @@ sınıflar karar versin.
   havale eder.
 * karisikExample.Factory method , nesnenin yaratılmasından sorumlu bir metottur öyle ki bir arayüzde tanımlanır ve alt sınıflarda gerçekleşir.
 * Her alt sınıf başka bir nesneyi oluşturur.
+
+## 📌 Özetlersek ?
+
+* Factory (Fabrika) tasarım deseni, istemci tarafından verilen bilgilere göre nesne oluşumunu soyutlayarak
+merkezi bir yerden kontrol etmemizi sağlar. Sınıflar, arayüz üzerinden türetilir. Böylece, istemci ile işi 
+yapacak olan nesne birbirinden ayrılarak gevşek bağlılık sağlanmış olur. Oluşturulacak nesnelerden birbirine 
+benzer olanlar aynı arayüzden türetilerek gruplanır. Fabrika deseni, aynı zamanda sistemimizde tanımladığımız 
+soyut sınıflardan örnekler oluşturmamızı sağlar. Fabrika deseni, Java’da en çok kullanılan desenlerden birisidir.
