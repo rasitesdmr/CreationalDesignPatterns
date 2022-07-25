@@ -23,3 +23,7 @@ is designed to be used together, and you need to enforce this constraint.)
 * Benzer şekilde her bir nesne için arayüzü gerçekleştiren dolayısıyla da Factory Method’unu ezen sınıflar oluşturulur.
 
 <img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc1.png" width="60%" height="50%"/>
+
+## Solution 2 ?
+* Elinizdeki nesneler , bir nesne ailesi oluşturuyorlarsa yani bu nesneler birbirleriyle ilgili nesnelerse , her birisi 
+için ayrı ayrı oluşturulan ve farklı sınıflara konan Factory Method'larının bir sınıfta toplanmaları mümkündür.
