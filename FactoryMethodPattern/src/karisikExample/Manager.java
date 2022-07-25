@@ -1,3 +1,5 @@
+package karisikExample;
+
 public class Manager extends Employee{
     private String departmentManaged;
 
@@ -10,7 +12,7 @@ public class Manager extends Employee{
     }
 
     public void work() {
-        System.out.println("Manager çalışıyor");
+        System.out.println("basitExample.Manager çalışıyor");
     }
 
     public double calculateSalary() {
@@ -23,7 +25,7 @@ public class Manager extends Employee{
 
     @Override
     public String toString() {
-        return "Manager{" +
+        return "basitExample.Manager{" +
                 "departmentManaged='" + departmentManaged + '\'' +
                 '}';
     }

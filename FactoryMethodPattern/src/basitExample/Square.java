@@ -1,0 +1,8 @@
+package basitExample;
+
+public class Square implements Shape{
+    @Override
+    public void draw() {
+        System.out.println("Kare içinde draw() yöntemi .");
+    }
+}

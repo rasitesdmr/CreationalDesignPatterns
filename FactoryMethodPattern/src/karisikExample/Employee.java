@@ -1,3 +1,5 @@
+package karisikExample;
+
 public class Employee {
 
     private int no;
@@ -18,7 +20,7 @@ public class Employee {
     }
 
     public void work() {
-        System.out.println("Employee çalışıyor");
+        System.out.println("basitExample.Employee çalışıyor");
     }
 
     public double calculateSalary() {
@@ -49,7 +51,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee [no=" + no + ", name=" + name + ", year=" + year + ", department=" + department + ", salary="
+        return "basitExample.Employee [no=" + no + ", name=" + name + ", year=" + year + ", department=" + department + ", salary="
                 + salary + "]";
     }
 }

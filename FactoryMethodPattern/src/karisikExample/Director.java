@@ -1,3 +1,5 @@
+package karisikExample;
+
 public class Director extends Manager {
     private double bonus;
 
@@ -7,7 +9,7 @@ public class Director extends Manager {
     }
 
     public void work() {
-        System.out.println("Director is working! : Director tüm şirketi yönetir");
+        System.out.println("basitExample.Director is working! : basitExample.Director tüm şirketi yönetir");
     }
 
     public double calculateSalary() {
@@ -21,7 +23,7 @@ public class Director extends Manager {
 
     @Override
     public String toString() {
-        return "Director{" +
+        return "basitExample.Director{" +
                 "bonus=" + bonus +
                 '}';
     }
