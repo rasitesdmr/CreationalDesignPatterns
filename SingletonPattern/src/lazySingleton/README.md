@@ -1,4 +1,4 @@
-## Sonradan Yüklemeli Singleton ?
+# Sonradan Yüklemeli Singleton ?
 
 * Bu çözüm en basit olandır ve üzerinde bazı iyileştirmeler yapılabilir
 * İlk akla gelen iyileştirme statik olan singleton nesnenin sınıf yüklenirken yaratılması değil aksine yaratılmasının 
