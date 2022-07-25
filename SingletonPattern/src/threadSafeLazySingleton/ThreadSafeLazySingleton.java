@@ -1,6 +1,6 @@
 package threadSafeLazySingleton;
 
-import threadedLazySingleton.ThreadedLazySingleton;
+
 
 public class ThreadSafeLazySingleton {
 
