@@ -8,8 +8,8 @@
 
 ## SINGLETON VE INHERITANCE ? 
 
-* Singleton'ın tüm kurucuları private olduğundan miras olarak devralınamazlar
-* Yani singleton'ın alt sınıfları olamaz , genişletilebilen bir yapı değildir .
+* Singleton'ın tüm kurucuları private olduğundan miras olarak devralınamazlar.
+* Yani singleton'ın alt sınıfları olamaz , genişletilebilen bir yapı değildir.
 * Ama bu önemli bir kısıt değildir çünkü singletondaki davranışlar da zaten singleton yani tek olma eğilimindedir.
 
 
