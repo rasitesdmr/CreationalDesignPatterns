@@ -16,14 +16,19 @@ birlikte kullanılacak şekilde tasarlanmış ve bunun uygulandığı nesnelerdi
 is designed to be used together, and you need to enforce this constraint.)
 
 ## Solution 1 ?
+
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc1.png" width="60%" height="50%"/>
 * Factory Method tek bir nesne yaratmaktan sorumludur.
 * Yaratılacak nesne bir değil birden çok ise yapılacak şey birden fazla Factory Method kullanmaktır.
 * Bu durumda farklı methodlar farklı arayüzlerde bulunur.
 * Çünkü nesneler arasında bir ilgi ya da bağımlılık yoktur.
 * Benzer şekilde her bir nesne için arayüzü gerçekleştiren dolayısıyla da Factory Method’unu ezen sınıflar oluşturulur.
 
-<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc1.png" width="60%" height="50%"/>
 
 ## Solution 2 ?
+
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc3.png" width="60%" height="50%"/>
 * Elinizdeki nesneler , bir nesne ailesi oluşturuyorlarsa yani bu nesneler birbirleriyle ilgili nesnelerse , her birisi 
 için ayrı ayrı oluşturulan ve farklı sınıflara konan Factory Method'larının bir sınıfta toplanmaları mümkündür.
+
+
