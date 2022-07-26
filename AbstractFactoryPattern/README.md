@@ -35,6 +35,8 @@ için ayrı ayrı oluşturulan ve farklı sınıflara konan Factory Method'ları
 
 ## Solution 3 ?
 
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/CD.png" width="60%" height="50%"/>
+
 * Eğer bir nesne ailesi değil de birden çok nesne ailesi varsa her aile için farklı bir abstract factory ve hiyarşisi olur .
 * Benzer şekilde birlikte kullanılacak nesnelerin yani nesne ailesinin , birden fazla ortam için yaratılmaları söz konusu ise abstract arayüzünün her ortam
 için farklı bir gerçekleştirmeside olabilir . 
