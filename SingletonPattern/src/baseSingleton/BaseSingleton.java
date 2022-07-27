@@ -17,4 +17,8 @@ public class BaseSingleton {
     public void printName(){
         System.out.println(name);
     }
+
+    public BaseSingleton(String name) {
+        this.name = name;
+    }
 }

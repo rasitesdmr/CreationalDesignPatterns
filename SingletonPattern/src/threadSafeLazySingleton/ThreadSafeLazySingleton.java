@@ -24,4 +24,8 @@ public class ThreadSafeLazySingleton {
     public void printName(){
         System.out.println(name);
     }
+
+    public ThreadSafeLazySingleton(String name) {
+        this.name = name;
+    }
 }

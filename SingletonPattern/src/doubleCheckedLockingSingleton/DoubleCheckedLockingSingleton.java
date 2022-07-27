@@ -26,4 +26,21 @@ public class DoubleCheckedLockingSingleton {
         System.out.println(name);
     }
 
+    public static DoubleCheckedLockingSingleton getDoubleCheckedLockingSingleton() {
+        return doubleCheckedLockingSingleton;
+    }
+
+
+
+    public static int getCount() {
+        return count;
+    }
+
+
+
+    public String getName() {
+        return name;
+    }
+
+
 }

@@ -19,4 +19,8 @@ public class LazySingleton {
     public void printName(){
         System.out.println(name);
     }
+
+    public LazySingleton(String name) {
+        this.name = name;
+    }
 }

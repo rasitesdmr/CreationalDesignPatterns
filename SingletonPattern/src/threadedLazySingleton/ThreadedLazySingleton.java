@@ -18,4 +18,8 @@ public class ThreadedLazySingleton {
     public void printName(){
         System.out.println(name);
     }
+
+    public ThreadedLazySingleton(String name) {
+        this.name = name;
+    }
 }
