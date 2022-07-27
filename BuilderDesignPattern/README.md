@@ -1,5 +1,7 @@
 # Builder Design Pattern ? 
 
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/build.png" width="100%" height="50%"/>
+
 * Önce problemin ne olduğunu analiz edelim 
 * Constructor’lar nesne oluşturma amacı ile kullanılan metotlar olduğundan 
 dolayı çok sayıda parametre almaya yatkınlardır. 
@@ -17,7 +19,7 @@ tanımlamak istiyorsak bu metotların parametre dizinleri(tip, sıra, sayı) bir
 * Bu gibi problemlerden etkilenmeden, istenilen özelliklere değer atayabilmek adına Builder sınıfı oluşturulur.
 * Bu sınıf içerisinde aynı özellikler tekrardan tanımlanır.
 
-## Özet
+## 📌 Özet
 
 * Şimdi daha iyi anlamak için örnek verelim .
 * Bir ev yapmak istiyoruz bunu için işte çatı , duvarlar , kapılar , vb. gibi şeyler gerek.
