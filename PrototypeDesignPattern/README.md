@@ -14,7 +14,7 @@ kullanılabilecek mantıklı bir yoldur.
 * Böylece, hem sürekli olarak Constructor metotlara parametre geçmenin sebep olabileceği karışıklıktan 
 sıyrılmış oluruz hem de daha hızlı bir şekilde ilerleme imkanı elde ederiz.
 
-## Örnek Verelim ? 
+## 📌 Örnek Verelim ? 
 * Örneğin, bir savaş oyununda aynı askerden yüzlerce tane bulunurken bu askerlerin yalnızca kimlik numaraları 
 farklıdır.Her defasında yeni asker nesnesi yaratmak yerine var olan asker nesneleri kopyalanır ve 
 kimlik numaraları değiştirilir.
