@@ -1,4 +1,7 @@
-## Prototype Design Pattern ? 
+# Prototype Design Pattern ?
+
+<img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/prototype.png" width="100%" height="50%"/>
+
 * Nesne yaratma işlemini gerçekleştirmek için Constructor metotları kullanmaktayız.
 * Constructor metotlar ise doğaları gereği fazla sayıda parametre alabilmekte ve bu durum yazılımda belirli
 bir karmaşıklığa yol açabilmekte.
