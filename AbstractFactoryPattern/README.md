@@ -9,13 +9,13 @@ yaratmak için bir arayüz sağlar.
 * Factory Method tek bir nesnenin , Abstract Factory birden fazla nesnenin yaratılmasını soyutlar.
 * Bu amaçla Abstract Factory birden fazla Factory Method'a sahiptir.
 
-## Nesne Ailesi ?
+## 📌 Nesne Ailesi ?
 * Kalıbın açıklamasında geçen birbirleriyle ilgili ya da birbirlerine bağımlı nesne ailesi (families of related 
 or dependent objects) birbirleriyle ilgili ürün ailesi (a family of related product) ile kastedilen
 birlikte kullanılacak şekilde tasarlanmış ve bunun uygulandığı nesnelerdir (a family of related product objects 
 is designed to be used together, and you need to enforce this constraint.)
 
-## Solution 1 ?
+## 📌 Solution 1 ?
 
 <img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc1.png" width="60%" height="50%"/>
 
@@ -26,7 +26,7 @@ is designed to be used together, and you need to enforce this constraint.)
 * Benzer şekilde her bir nesne için arayüzü gerçekleştiren dolayısıyla da Factory Method’unu ezen sınıflar oluşturulur.
 
 
-## Solution 2 ?
+## 📌 Solution 2 ?
 
 <img src="https://github.com/rasitesdmr/CreationalDesignPatterns/blob/master/images/fc3.png" width="60%" height="50%"/>
 
